@@ -3,10 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-.quote {
+.quote,
+.article {
   height: 100vh;
   text-align: center;
   display: flex;
+
+  background-size: cover;
+  background-position: center;
+}
+.article {
+  color: black;
 }
 
 .v-center {
