@@ -3,6 +3,7 @@ import mockPage from './utils/page'
 import Quote from './components/Quote'
 import Article from './components/Article'
 import Entry from './components/Entry'
+import Complex from './components/Complex'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Article data={mockPage.content[1]} />
       <Quote data={mockPage.content[2]} />
       <Entry data={mockPage.content[3]} />
+      <Complex data={mockPage.content[4]} />
     </div>
   );
 }

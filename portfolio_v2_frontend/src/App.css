@@ -5,7 +5,8 @@
 }
 .quote,
 .article,
-.entry {
+.entry,
+.complex {
   height: 100vh;
   text-align: center;
   display: flex;
@@ -21,12 +22,35 @@
   position: relative;
   color: #fff;
 }
-
 .entry__content {
   position: absolute;
   bottom: 30px;
   right: 20px;
 }
+.complex {
+  color: #fff;
+}
+.complex__center {
+  max-width: 400px;
+  padding: 42px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+
+  position: relative;
+}
+.complex__left {
+  left: -200px;
+}
+.complex__bottom {
+  bottom: -200px;
+}
+.complex__right {
+  right: -200px;
+}
+.complex__top {
+  top: -200px;
+}
+
 a {
   text-decoration: none;
 }
