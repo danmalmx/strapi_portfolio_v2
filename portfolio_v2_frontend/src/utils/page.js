@@ -6,13 +6,6 @@ export default {
       "updated_at": "2021-04-05T10:57:13.363Z",
       "content": [
           {
-              "__component": "page.quote",
-              "id": 1,
-              "big_text": "This is me.",
-              "author": "Daniel",
-              "background_color": "#c0392b"
-          },
-          {
               "__component": "page.article",
               "id": 1,
               "title": "This is an article",
@@ -63,20 +56,21 @@ export default {
               ]
           },
           {
-              "__component": "page.quote",
-              "id": 2,
-              "big_text": "Cool bike, right? ",
-              "author": "",
-              "background_color": "#95a5a6"
-          },
+                "__component": "page.quote",
+                "id": 1,
+                "big_text": "This is me.",
+                "author": "Daniel",
+                "background_color": "#c0392b"
+            },
           {
-              "__component": "page.entry",
-              "id": 1,
-              "title": "Bikes are us",
-              "subtitle": "Bikes are really good for biking",
-              "link": "https://pixabay.com/photos/child-tricycle-play-drive-bike-1217246/",
-              "color": "#f1c40f"
-          },
+            "__component": "page.entry",
+            "id": 1,
+            "title": "Bikes are us",
+            "subtitle": "Bikes are really good for biking",
+            "link": "https://pixabay.com/photos/child-tricycle-play-drive-bike-1217246/",
+            "color": "#f1c40f"
+        },
+
           {
               "__component": "page.complex-entry",
               "id": 1,

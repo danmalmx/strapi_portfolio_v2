@@ -10,11 +10,22 @@ function App() {
   console.log('App.render mockPage', mockPage);
   return (
     <div className="App">
-      <Quote data={mockPage.content[0]}/>
-      <Article data={mockPage.content[1]} />
-      <Quote data={mockPage.content[2]} />
-      <Entry data={mockPage.content[3]} />
-      <Complex data={mockPage.content[4]} />
+      {mockPage.content.map((component) => (
+        <>
+        {component.__component === 'page.quote' &&
+        <Quote data={component }/>
+        }
+        {component.__component === 'page.article' &&
+        <Article data={component }/>
+        }
+        {component.__component === 'page.entry' &&
+        <Entry data={component }/>
+        }
+        {component.__component === 'page.complex-entry' &&
+        <Complex data={component }/>
+        }
+        </>
+      ))}
     </div>
   );
 }
