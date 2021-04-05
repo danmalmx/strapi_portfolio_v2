@@ -2,6 +2,7 @@ import './App.css';
 import mockPage from './utils/page'
 import Quote from './components/Quote'
 import Article from './components/Article'
+import Entry from './components/Entry'
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
     <div className="App">
       <Quote data={mockPage.content[0]}/>
       <Article data={mockPage.content[1]} />
+      <Quote data={mockPage.content[2]} />
+      <Entry data={mockPage.content[3]} />
     </div>
   );
 }

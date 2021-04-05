@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 .quote,
-.article {
+.article,
+.entry {
   height: 100vh;
   text-align: center;
   display: flex;
@@ -14,6 +15,20 @@
 }
 .article {
   color: black;
+}
+.entry {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.entry__content {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+a {
+  text-decoration: none;
 }
 
 .v-center {
