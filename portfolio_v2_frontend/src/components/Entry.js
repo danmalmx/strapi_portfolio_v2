@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Entry = ({data}) => {
-  console.log("Entry.render data", data);
   const { title, subtitle, link, color  }= data;
   return (
     <a href={link}>

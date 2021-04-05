@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Article = ({data}) => {
-  console.log("Article.render data", data);
   const { title, link, picture } = data;
   const url = `http://localhost:1337${picture[0].url}`
 

@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Complex = ({data}) => {
-  console.log("Complex.render data", data);
   const { title, subtitle, text_position, background } = data;
   const url = `http://localhost:1337${background[0].url}`
   return (

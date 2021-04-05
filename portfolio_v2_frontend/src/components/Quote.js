@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default ({data}) => {
-  console.log('Quote.render data', data);
   const {big_text, author, background_color} = data;
   return (
     <div className="quote" style={{backgroundColor: background_color}}>
